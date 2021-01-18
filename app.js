@@ -54,6 +54,7 @@ for (let i = 0; i < frequenciesSelected.length; i++) {
 }
 
 window.addEventListener('keydown', e => {
+	handleClick();
 	for(let i = 0; i < keyInputs.length; i++) {
 		if(e.key === keyInputs[i]) {
 			pianoKeys[i].mixGains.gain.setTargetAtTime(1, audioctx.currentTime, 0.004);
