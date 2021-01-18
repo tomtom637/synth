@@ -5,6 +5,10 @@ const masterGain = audioctx.createGain();
 masterGain.gain.setValueAtTime(0.2, audioctx.currentTime);
 masterGain.connect(audioctx.destination);
 
+function handleClick(e) {
+	audioctx.resume();
+}
+
 class Osc {
 	constructor(frequency) {
 		this.frequency = frequency;
