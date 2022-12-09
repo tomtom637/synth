@@ -54,7 +54,7 @@ const notes = [
 	{octave: 6,	note: 'C#', frequency: 1108.73},
 	{octave: 6,	note: 'D',  frequency: 1174.66, key: 'ù'},
 	{octave: 6,	note: 'D#', frequency: 1244.51, key: '$'},
-	{octave: 6, note: 'E',  frequency: 1318.51, key: '`'},
+	{octave: 6, note: 'E',  frequency: 1318.51, key: 'Dead'},
 	{octave: 6, note: 'F',  frequency: 1396.91},
 	{octave: 6, note: 'F#', frequency: 1479.98},
 	{octave: 6, note: 'G',  frequency: 1567.98},
